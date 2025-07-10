@@ -13,6 +13,7 @@ public class HBaseApplication
 {
     public static void main(String[] args)
     {
+        // naive test
         HBase hBase = new HBase();
         hBase.addTable("table1");
         String[] columns = {"column1", "column2"};
